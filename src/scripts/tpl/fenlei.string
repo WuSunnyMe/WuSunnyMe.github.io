@@ -1,0 +1,38 @@
+<div class="fenlei-index">
+	<header>
+		<ul class="back-header">
+			<li class="yo-ico">&#xf0292;</li>
+			<li><input type="text" name="search" id="search" placeholder="请输入商品名称" /></li>
+		</ul>
+	</header>
+	<section class="fenlei-section">
+		<ul>
+			<li class="active">衣服</li>
+			<li>鞋子</li>
+			<li>饰品</li>
+			<li>帽子</li>
+			<li>袜子</li>
+			<li>手套</li>
+			<li>食品</li>
+			<li>数码</li>
+		</ul>
+		<div class="swiper-container" id="fenlei-swiper">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<ul>
+						<li><img src="../../../images/5.jpg"/></li>
+					</ul>
+				</div>
+				<div class="swiper-slide">鞋子</div>
+				<div class="swiper-slide">饰品</div>
+				<div class="swiper-slide">帽子</div>
+				<div class="swiper-slide">袜子</div>
+				<div class="swiper-slide">手套</div>
+				<div class="swiper-slide">食品</div>
+				<div class="swiper-slide">数码</div>
+			</div>
+			<!-- 如果需要分页器 -->
+			<div class="swiper-pagination"></div>
+		</div>
+	</section>
+</div>
