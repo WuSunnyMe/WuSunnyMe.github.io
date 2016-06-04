@@ -10,6 +10,7 @@ SPA.defineView('home', {
       vm.getHot = [];
     }
   }],
+  
   bindEVENTS:{
   	'show':function(){
   		var vm = this.getVM();//获得vm对象
@@ -31,9 +32,10 @@ SPA.defineView('home', {
       this.indexSwiper = new Swiper('#container-swiper', {
         loop: false,
         onSlideChangeStart: function (swiper) {
-//      	console.log(swiper.activeIndex)
+        	console.log(swiper.activeIndex)
           $('#nav li').eq(swiper.activeIndex)
             .addClass('active').siblings().removeClass('active');
+            
         }
       });
       //轮播图
@@ -46,6 +48,11 @@ SPA.defineView('home', {
 				pagination: '.swiper-pagination',
 			});
     }
+  },
+  bindActions:{
+  	'switch.view':function(e){
+			$(e.el).addClass("active").siblings().removeClass("active");
+			this.indexSwiper.slideTo($(e.el).index());
+	  	},
   }
-  
 });

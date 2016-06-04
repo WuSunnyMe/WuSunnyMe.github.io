@@ -6,21 +6,28 @@
 		</ul>
 	</header>
 	<section class="fenlei-section">
-		<ul>
-			<li class="active">衣服</li>
-			<li>鞋子</li>
-			<li>饰品</li>
-			<li>帽子</li>
-			<li>袜子</li>
-			<li>手套</li>
-			<li>食品</li>
-			<li>数码</li>
+		<ul id = "fenlei-nav">
+			<li action-type = "switch.fenlei" class="active">衣服</li>
+			<li action-type = "switch.fenlei">鞋子</li>
+			<li action-type = "switch.fenlei">饰品</li>
+			<li action-type = "switch.fenlei">帽子</li>
+			<li action-type = "switch.fenlei">袜子</li>
+			<li action-type = "switch.fenlei">手套</li>
+			<li action-type = "switch.fenlei">食品</li>
+			<li action-type = "switch.fenlei">数码</li>
 		</ul>
 		<div class="swiper-container" id="fenlei-swiper">
 			<div class="swiper-wrapper">
 				<div class="swiper-slide">
 					<ul>
-						<li><img src="../../../images/5.jpg"/></li>
+						<li><img src="../../../images/5.jpg"/><p>韩版</p></li>
+						<li><img src="../../../images/5.jpg"/><p>韩版</p></li>
+						<li><img src="../../../images/5.jpg"/><p>韩版</p></li>
+					</ul>
+					<ul>
+						<li><img src="../../../images/5.jpg"/><p>韩版</p></li>
+						<li><img src="../../../images/5.jpg"/><p>韩版</p></li>
+						<li><img src="../../../images/5.jpg"/><p>韩版</p></li>
 					</ul>
 				</div>
 				<div class="swiper-slide">鞋子</div>

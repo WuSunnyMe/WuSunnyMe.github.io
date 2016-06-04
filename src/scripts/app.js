@@ -10,3 +10,4 @@ var indexView = SPA.util.storage('isvisited')?'index':'guide';
 SPA.config({
   indexView: indexView//第一个视图
 });
+	
