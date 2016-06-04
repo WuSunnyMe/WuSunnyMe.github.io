@@ -8,7 +8,7 @@ SPA.defineView('index', {
 		name:'content',
 		container:'.m-index-container',
 		views:['home','find','my','fenlei'],
-		defaultTag:'find'
+		defaultTag:'home'
 	}],
   //初始化
     init: {

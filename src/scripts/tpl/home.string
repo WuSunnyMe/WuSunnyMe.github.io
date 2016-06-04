@@ -40,21 +40,11 @@
 				<div class="swiper-wrapper">
 					<div class="swiper-slide" spa-widget="scroll">
 						<div class="main">
-							<ul>
+							<ul ms-repeat-value = "getHot">
 								<li>
-									<img width="100%" src="../../../images/2.jpg" />
-									<p>随身携带的小清凉</p>
-									<b class="yo-ico">&#xe605;0</b>
-								</li>
-								<li>
-									<img width="100%" src="../../../images/3.jpg" />
-									<p>随身携带的小清凉</p>
-									<b class="yo-ico">&#xe605;0</b>
-								</li>
-								<li class="last-li">
-									<img width="100%" src="../../../images/4.jpg" />
-									<p>随身携带的小清凉</p>
-									<b class="yo-ico">&#xe605;0</b>
+									<img width="100%" ms-src="value.imgSrc" />
+									<p ms-text="value.title"></p>
+									<b class="yo-ico" ms-test="value.like">&#xe605;0</b>
 								</li>
 							</ul>
 						</div>

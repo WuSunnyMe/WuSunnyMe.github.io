@@ -4,10 +4,17 @@
 		<meta charset="UTF-8">
 		<title>甜圈圈</title>
 		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
-		<link rel="stylesheet" href="./prd/styles/usage/app@9c97bfff27cab4d7deab7caf203f838f
+		<link rel="stylesheet" href="./prd/styles/usage/app@5f34157bfd8640a41474a6038cc9d1af
 .css"/>
+		<script>
+		    document.ontouchmove = function(e) {
+		        if (e.target.tagName.toUpperCase() !== 'IFRAME') {
+		            e.preventDefault();
+		        }
+		    };
+		</script>
 	</head>
 	<body>
-		<script src="./prd/scripts/app@f446919b3e1b92fcb22dfb650195e0c8.js"></script>
+		<script src="./prd/scripts/app@f5ca8573cd7166d2f03ab0ca878f156d.js"></script>
 	</body>
 </html>
