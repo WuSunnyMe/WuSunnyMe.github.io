@@ -33,7 +33,8 @@ SPA.defineView('home', {
     'show':function(){
 		var vm = this.getVM();//获得vm对象
   		$.ajax({
-  			url:'/api/getHot.php',
+//			url:'/api/getHot.php',
+  			url:'/mock/getHot.json',
   			success:function(res){
   				console.log(res.data)
 				var data = res.data;
